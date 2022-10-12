@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ipsum/static/css/main.d36bf63e.css",
+    "main.js": "/ipsum/static/js/main.ccda2b4f.js",
+    "index.html": "/ipsum/index.html",
+    "main.d36bf63e.css.map": "/ipsum/static/css/main.d36bf63e.css.map",
+    "main.ccda2b4f.js.map": "/ipsum/static/js/main.ccda2b4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36bf63e.css",
+    "static/js/main.ccda2b4f.js"
+  ]
+}
