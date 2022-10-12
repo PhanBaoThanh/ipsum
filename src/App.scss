@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(210, 36%, 96%);
+}
+
+.App {
+  margin: 80px 127px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header{
+    font-size: 28px;
+    color: hsl(205, 86%, 17%);
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+
+  .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+      font-size: 20px;
+      letter-spacing: 3px;
+      color: hsl(205, 86%, 17%);
+      margin-right: 8px;
+    }
+
+    .input{
+      border: none;
+      outline: none;
+      cursor: default;
+      padding: 8px;
+      width: 50px;
+      border-radius: 8px;
+      margin-right: 8px;
+    }
+
+    .btn{
+      padding: 6px 12px;
+      background-color: #49a6e9;
+      color: #000;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: 2px;
+      border: none;
+      outline: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    margin-bottom: 50px;
+  }
+
+  .paragraph{
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: hsl(210, 22%, 49%);
+    line-height: 26px;
+    text-align: center;
+  }
+}
